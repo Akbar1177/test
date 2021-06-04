@@ -1,0 +1,41 @@
+.info{
+  padding-top: 199px;
+  padding-bottom: 247px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &:first-child{
+    margin-top: 199px;
+    margin-bottom: 15px;
+  }
+  &:last-child{
+    margin-top: 242px;
+    margin-bottom: 247px;
+  }
+  &__welcome{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    text-align: center;
+
+    color: #FF573D;
+  }
+  &__info{
+    width: 60%;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    /* or 130% */
+
+    text-align: center;
+
+    color: #191919;
+  }
+}

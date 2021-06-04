@@ -1,0 +1,89 @@
+
+.leads{
+  position: relative;
+  margin: -40px 0 0;
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%) top left/100% 586px no-repeat,
+  linear-gradient(to bottom, #191919 0%, #191919 100%) bottom;
+  padding-bottom: 160px;
+
+  .stat{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 167px;
+  }
+
+  &__title{
+    max-width: 525px;
+    margin: 0 auto 100px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .owl-carousel{
+    margin-bottom: 97px;
+    .owl-stage-outer{
+      padding-top: 20px;
+    }
+    .owl-item{
+      height: 390px;
+      .box{
+        height: 100%;
+        &__img{
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      &.center{
+        position: relative;
+        margin-top: -20px;
+        height: 430px;
+      }
+    }
+    .leadsNav{
+      margin-top: 32px;
+      display: flex;
+      justify-content: center;
+      &.disabled{
+        display: none;
+      }
+      .prevBtn{
+        width: 48px;
+        height: 48px;
+        margin-right: 32px;
+        background: url("../../src/img/leads/arrow-right.png");
+      }
+      .nextBtn{
+        width: 48px;
+        height: 48px;
+        background: url("../../src/img/leads/arrow-left.png");
+      }
+    }
+  }
+  .featured{
+    text-align: center;
+    &__title{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 14px;
+      letter-spacing: 0.559642px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 42px;
+    }
+    &__img{
+      margin-right: 17px;
+      &:first-child{
+        margin-right: 40px;
+      }
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+}
